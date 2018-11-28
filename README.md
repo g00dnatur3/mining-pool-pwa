@@ -1,1 +1,1 @@
-# mining-pool-pwa
+# playground
