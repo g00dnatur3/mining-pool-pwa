@@ -24,8 +24,8 @@ class Style extends BaseStyle {
     backgroundColor: theme.palette.primary.main,
     marginLeft: '0.5%',
     marginRight: '0.5%',
-    paddingLeft: '12%',
-    paddingRight: '12%'
+    paddingLeft: '10%',
+    paddingRight: '10%'
   }
   toolBar: React.CSSProperties = {
     justifyContent: 'space-between',

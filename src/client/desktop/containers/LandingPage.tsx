@@ -19,7 +19,7 @@ interface State extends BaseState {
 
 class Style extends BaseStyle {
 	content: React.CSSProperties = {
-    width: '75%',
+    width: '80%',
     margin: '0 auto',
 	}
 	intro: React.CSSProperties = {
