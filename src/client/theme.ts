@@ -4,20 +4,20 @@ import { colors } from '@material-ui/core'
 import { isBrowser } from 'react-device-detect'
 
 const themeOptions: ThemeOptions = {
-  shadows: [
-    'none', 'none', 'none', 'none', 'none',
-    'none', 'none', 'none', 'none', 'none',
-    'none', 'none', 'none', 'none', 'none',
-    'none', 'none', 'none', 'none', 'none',
-    'none', 'none', 'none', 'none', 'none'
-  ],
+  // shadows: [
+  //   'none', 'none', 'none', 'none', 'none',
+  //   'none', 'none', 'none', 'none', 'none',
+  //   'none', 'none', 'none', 'none', 'none',
+  //   'none', 'none', 'none', 'none', 'none',
+  //   'none', 'none', 'none', 'none', 'none'
+  // ],
   palette: {
     primary: {
       main: colors.blue["300"]
     },
-    // secondary: {
-    //   main: colors.lightBlue["200"]
-    // },
+    secondary: {
+      main: colors.green["300"]
+    },
     // background: {
     //   default: colors.grey["200"]
     // },

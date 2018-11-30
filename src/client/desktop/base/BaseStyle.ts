@@ -21,8 +21,15 @@ export class BaseStyle {
     paddingTop: 5,
     paddingBottom: 5,
   }
-  center: React.CSSProperties = {
+  centerColumn: React.CSSProperties = {
     display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
+  centerRow: React.CSSProperties = {
+    display: 'flex',
+    flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center'
   }
